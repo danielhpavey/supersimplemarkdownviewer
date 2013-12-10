@@ -21,9 +21,9 @@ class MyHeader{
 			$r[] = '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
 			$r[] = '<link rel="stylesheet" href="css/styles.css">';
 			$r[] = "<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>";
-			$r[] = '<!--[if lt IE 9]>
-					<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-					<![endif]-->';
+			$r[] = '<!--[if lt IE 9]>';
+			$r[] = '<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>';
+			$r[] = '<![endif]-->';
 			$r[] = '</head>';
 			$r[] = '<body>';
 			$r[] = '<header>';
