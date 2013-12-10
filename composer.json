@@ -1,0 +1,12 @@
+{
+"autoload": {
+        "psr-0": {
+            "mymd": "src/"
+        }
+},
+    
+"require": {
+	"michelf/php-markdown": "1.4.*@dev"
+	}
+}
+
