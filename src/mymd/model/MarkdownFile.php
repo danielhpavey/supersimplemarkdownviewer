@@ -7,7 +7,7 @@ class MarkdownFile{
 
 	function getFileContents(){
 
-		$f = file_get_contents( __DIR__ . '/source.md' );
+		$f = file_get_contents( __DIR__ . '/../../../source.md' );
 		return $f;
 
 
