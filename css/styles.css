@@ -11,7 +11,8 @@ body{
 	font-family: 'Nixie One', Helvetica, Arial, cursive;
 	font-size: 16px;
 	border-top: 2px solid green;
-    background: snow;
+	background:whitesmoke;
+	color:#626262;
 
 }
 
@@ -21,4 +22,22 @@ h1, h2, h3, h4{
 
 h1 {
 	font-size:3em;
+}
+
+h2{
+	font-size:2em;
+}
+
+p {
+	margin: 0 0 20px 0;
+	line-height:1.6em;
+}
+
+ul{
+	margin:0 0 0 30px;
+}
+
+ul li{
+	list-style:disc;
+	margin: 0 0 10px 0;
 }
