@@ -19,6 +19,7 @@ class MyHeader{
 			$r[] = '<meta name="keywords" content="" />';
 			$r[] = '<meta name="author" content="">';
 			$r[] = '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+			$r[] = '<link rel="icon" href="favicon.ico" type="image/x-icon" />';
 			$r[] = '<link rel="stylesheet" href="css/styles.css">';
 			$r[] = "<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>";
 			$r[] = '<!--[if lt IE 9]>';
