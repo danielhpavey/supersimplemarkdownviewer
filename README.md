@@ -12,7 +12,9 @@ Hopefully this is it..
 
 (This also gave me an excuse to get more familiar with Composer)
 
-To use, just clone to your webserver, then pop your Markdown formated text into the source.md file located in src/mymd/model/
+To use, just clone to your webserver, then pop your Markdown formated text into the source.md located in the route
+
+You'll need [Composer](http://getcomposer.org/) installed and must run **composer install** after you've cloned
 
 P.S. I am using [PHP Markdown](https://github.com/michelf/php-markdown?source=c) to parse the Markdown text
 
