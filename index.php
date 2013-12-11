@@ -8,7 +8,7 @@ $header -> header();
 $markdown = new \mymd\model\MarkdownFile();
 $content = $markdown -> getFileContents();
 
-use \Michelf\Markdown;
+use Michelf\Markdown;
 echo Markdown::defaultTransform( $content );
 
 
